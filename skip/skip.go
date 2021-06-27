@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-//	Rows converts columns string to a convenient map
+// Rows converts columns string to a convenient map
 func Rows(s string) map[int]string {
 	result := map[int]string{}
 	for _, v := range parseRows(s) {
